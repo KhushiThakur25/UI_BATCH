@@ -3,13 +3,52 @@
     margin: 0%;
     padding: 0%;
 }
-.nav-text{
-    color: azure;
-    font-size: 1.5em;
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(1, 1, 25);
 }
-.nav{
+.nav-text{
+    color: rgba(240, 255, 255, 0.666);
+    font-size: 1.5em;
+    align-items: center;
+}
+.nav-logo{
     background-color: black;
     padding: 10px 10px;
     display: flex;
     justify-content: space-between;
+}
+.text-1{
+    margin-left: 20px;
+    font-size: 0.5em;
+    color: aliceblue;
+}
+.text-2{
+    
+    font-size: 0.7em;
+    color: aliceblue;
+}
+.nav-icon{
+   display: flex;
+   align-items: center;
+}
+.search-icon{
+    width: 70px;
+    height: 50px;
+}
+.nav-search{
+    display: flex;
+    background-color: rgb(214, 138, 16);
+    width: 50%;
+}
+.search-box{
+    width: 100%;
+    font-size: 1em;
+    padding: 7px 10px 10px 10px;
+    justify-content: center;
+}
+.option{
+    background-color: rgb(188, 184, 184);
+    text-align: center;
 }

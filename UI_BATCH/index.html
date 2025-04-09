@@ -5,18 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
 </head>
 <body>
     <Header class="header">
-        <div class = "nav">
+        <div class = "nav-logo">
             <img src="https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg" alt="" width="80px">
-            <h3 class="nav-text"><b>Deliver</b></h3>
+            <!-- <h3 class="nav-text"><b>Deliver</b></h3>
             <input type="text" placeholder="Search for finding product..">
             <a href="https://www.amazon.com/">Account</a>
             <a href="http://">Order</a>
             <a href="http://">Add to Cart</a>
-            <a href="http://">Profile</a>
+            <a href="http://">Profile</a> -->
         </div>
+        <div class="nav-text">
+            <p class="text-1">Deliver to</p>
+            <div class = "nav-icon">
+                <i class="fa-light fa-location-dot"></i>
+                <p class="text-2"> India</p>
+        </div>
+        </div>
+        <div class="nav-search">
+            <select class="option" name="all" id="">
+                <option value="All">All</option>
+                <option value="shoes">shoes</option>
+                <option value="clothes">clothes</option>
+            </select>
+            <input class="search-box" type="text" placeholder="Search Amazon">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        
     </Header>
 </body>
 </html>
