@@ -1,42 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amazon</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <Header class="header">
-        <div class = "nav-logo">
-            <img src="https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg" alt="" width="80px">
-            <!-- <h3 class="nav-text"><b>Deliver</b></h3>
-            <input type="text" placeholder="Search for finding product..">
-            <a href="https://www.amazon.com/">Account</a>
-            <a href="http://">Order</a>
-            <a href="http://">Add to Cart</a>
-            <a href="http://">Profile</a> -->
+    <header class="header">
+        
+        <div class="nav-logo border">
+            <img src="https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg" alt="Amazon Logo" width="80px" />
         </div>
-        <div class="nav-text">
-            <p class="text-1">Deliver to</p>
-            <div class = "nav-icon">
-                <i class="fa-light fa-location-dot"></i>
-                <p class="text-2"> India</p>
+
+        <div class="nav-add border">
+            <div class="nav-text">
+                <p class="text-1">Deliver to</p>
+                <div class="nav-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="text-2">India</p>
+                </div>
+            </div>
         </div>
-        </div>
-        <div class="nav-search">
-            <select class="option" name="all" id="">
+
+        
+        <div class="nav-search border-s">
+            <select class="option" name="all">
                 <option value="All">All</option>
-                <option value="shoes">shoes</option>
-                <option value="clothes">clothes</option>
+                <option value="shoes">Shoes</option>
+                <option value="clothes">Clothes</option>
             </select>
-            <input class="search-box" type="text" placeholder="Search Amazon">
+            <input class="search-box" type="text" placeholder="Search Amazon" />
             <div class="search-icon">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
-        
-    </Header>
+
+        <div class="nav-signin border">
+            <div class="signIn">
+                <span>Hello, Sign in</span>
+                <p>Account & Lists</p>
+            </div>
+        </div>
+
+        <div class="nav-return border">
+            <div class="return">
+                <span>Returns</span>
+                <p>& Orders</p>
+            </div>
+        </div>
+
+        <div class="cart-bloc border">
+            <div class="nav-cart">
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <p>Cart</p>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
