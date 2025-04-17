@@ -2,7 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
 .main_nav{
     display: flex;
@@ -179,8 +179,101 @@ span {
  margin-top: 20px;
 }
 
-.img{
+/* .img{
     background-image: url('box1_image.jpg');
     height: 50px;
     width: 50px;
+} */
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-bottom: 20px;
+    
+}
+
+
+.shop_card2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(248, 240, 192);
+    
+}
+
+.box_{
+    /* border: 2px solid  black; */
+    width: 23%;
+    height: 450px;
+    background-color: white;
+    margin-top: 50px;
+}
+.box-content1{
+    margin-left: 25px;
+    margin-top: 20px;
+   }
+.box-content1 p{
+    margin-top: 20px;
+}
+.prod1{
+    margin-left: 40px;
+
+}
+.panel1{
+    height: 60px;
+    background-color: #233636;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.panel1 p{
+    color: white;
+    font-size: 0.95rem;
+}
+.panel2{
+    height: 350px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    color: whitesmoke;
+}
+.panel-text p{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+.panel2 ul li{
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+.panel-text{
+    margin-top: 40px;
+}
+.underline{
+    border: none;
+}
+.underline:hover{
+    border-bottom: 2px solid white;
+}
+
+.panel3 {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panel3 img{
+    margin-left: 200px;
+}
+.button-box{
+    margin-right: 450px;
+}
+
+button{
+    background-color: black;
+    border-color: aliceblue;
+    background-size: cover;
+    height: 30px;
 }
